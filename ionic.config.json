@@ -1,5 +1,7 @@
 {
   "name": "AppExitOnBackButton",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

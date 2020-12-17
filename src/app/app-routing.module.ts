@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { ProductComponent } from './product/product.component';
 import { AboutComponent } from './about/about.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,8 @@ const routes: Routes = [
     loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   {path:'product',component:ProductComponent},
-  {path:'about',component:AboutComponent}
+  {path:'about',component:AboutComponent},
+  {path:'test',component:TestComponent}
 ];
 
 @NgModule({

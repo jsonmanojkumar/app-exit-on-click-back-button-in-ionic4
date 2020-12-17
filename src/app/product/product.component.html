@@ -1,3 +1,16 @@
-<p>
-  product works!
-</p>
+<ion-button [routerLink]="['/test']">test</ion-button>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="schedule" [routerLink]="['/product']">
+      <ion-icon name="calendar"></ion-icon>
+      <ion-label>Product</ion-label>
+    </ion-tab-button>
+ 
+    <ion-tab-button tab="map" [routerLink]="['/about']">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>about</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+</ion-tabs>

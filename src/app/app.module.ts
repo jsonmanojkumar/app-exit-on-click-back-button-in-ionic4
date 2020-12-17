@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductComponent } from './product/product.component';
 import { AboutComponent } from './about/about.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
-  declarations: [AppComponent,ProductComponent,AboutComponent],
+  declarations: [AppComponent,ProductComponent,AboutComponent,TestComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
